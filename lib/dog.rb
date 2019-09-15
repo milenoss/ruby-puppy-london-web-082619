@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.print_all 
-    @@all.select{|dog|dog.name == self} 
+    @@all.map{|dog|dog.self } 
   end
 end
 
