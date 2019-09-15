@@ -10,8 +10,8 @@ class Dog
     @@all 
   end
   
-  def self.print_all 
-    @@all.map{|dog|dog.self} 
+  def self.clear_all
+    
   end
 end
 
